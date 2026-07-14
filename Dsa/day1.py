@@ -31,10 +31,10 @@ numbers = [7, 2, 15, 8, 3]
     
 # print(largest)
 
-# smallest = numbers[0]
-# for number in numbers:
-#     if largest > number:
-#         largest=number
+smallest = numbers[0]
+for number in numbers:
+    if smallest > number:
+        smallest=number
     
-# print(smallest)
+print(smallest)
 

@@ -12,7 +12,7 @@ for number in numbers:
         second_largest = largest
         largest = number
         
-    if second_largest < number < largest:
+    elif second_largest < number < largest:
         second_largest = number
 
 print(largest, second_largest)

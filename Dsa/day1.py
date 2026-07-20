@@ -14,9 +14,9 @@ numbers = [7, 2, 15, 8, 3]
 
 # print(len(numbers))
 
-# for number in numbers:
-#     if (number%2 == 0):
-#         print(number)
+for number in numbers:
+    if (number%2 == 0):
+        print(number)
 
 # total = 0
 # for number in numbers:
@@ -37,4 +37,5 @@ for number in numbers:
         smallest=number
     
 print(smallest)
+print()
 

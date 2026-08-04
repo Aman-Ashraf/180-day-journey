@@ -1,3 +1,4 @@
+#generate strings
 def solve(current):
 
     # Base case
@@ -18,5 +19,3 @@ def solve(current):
         current = current[:-1]
 
 solve("")
-
-#generate strings

@@ -1,3 +1,5 @@
+#subsets
+
 def solve(index, current):
     #Base case
     if index == len(nums):

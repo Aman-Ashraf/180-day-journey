@@ -27,14 +27,14 @@ for number in numbers:
 # largest = numbers[0]
 # for number in numbers:
 #     if largest < number:
-#         largest=number
+#         largest = number
     
 # print(largest)
 
 smallest = numbers[0]
 for number in numbers:
     if smallest > number:
-        smallest=number
+        smallest = number
     
 print(smallest)
 print()

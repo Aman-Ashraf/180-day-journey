@@ -1,3 +1,4 @@
+#insert position of target in a sorted array
 def insert(nums, target):
     left = 0
     right = len(nums) - 1

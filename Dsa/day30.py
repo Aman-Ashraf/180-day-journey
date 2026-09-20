@@ -1,3 +1,4 @@
+#binary search for n elements in a sorted array
 def binary_search(nums, target):
 
     left = 0

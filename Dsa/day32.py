@@ -1,3 +1,4 @@
+#find first and last position of target element in a sorted array
 def findFirst(nums, target):
     left = 0
     right = len(nums) - 1

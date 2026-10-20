@@ -3,7 +3,7 @@ def minEatingSpeed(piles, h):
     left = 1
     right = max(piles)
     while left < right:
-        mid =(left + right) // 2
+        mid = (left + right) // 2
         hours = 0
         for pile in piles:
             hours += (piles + mid - 1)
